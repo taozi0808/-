@@ -1,0 +1,31 @@
+1.date点击内容再移出去任何地方点击数据清空，date锚点乱跳
+2.r0045的追加一个check:保存ボタン押下時certExpirationFlg=1の行,有効期限必须入力，没入力的情况报错，北京变红
+コード：E00012
+引数：
+{0}：資格有効期限有の資格
+{1}：有効期限
+
+
+ "certList" : [ {
+      "certCd" : "30001",
+      "certNm" : "監理技術者資格者証",
+      "certIndustryCd" : "30",
+      "certExpirationFlg" : "0",
+      "displayOrder" : "10"
+    }, {
+      "certCd" : "30002",
+      "certNm" : "１級建築士",
+      "certIndustryCd" : "30",
+      "certExpirationFlg" : "1",
+      "displayOrder" : "20"
+    }
+
+3.承认跳到组织会乱
+
+loginid 	empcd
+s000016000001  GktkUC 	
+s000030000001  dNhOj1	
+j000106000001  9RqLTh	
+
+
+4.金额可以入力负值
